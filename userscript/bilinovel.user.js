@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         哔哩轻小说增强
+// @name         哔哩轻小说字体修改
 // @namespace    http://tampermonkey.net/
 // @version      2024-11-19
 // @description  移除文本选中限制；自定义字体。
