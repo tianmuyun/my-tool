@@ -4,7 +4,8 @@
 // @version      2024-11-25
 // @description  小说详情页：添加展开简介
 // @author       tianmuyun
-// @match        https://www.linovelib.com/novel/*\.html
+// @match        https://www.linovelib.com/novel/*
+// @exclude      https://www.linovelib.com/novel/*/*
 // @icon         https://www.linovelib.com/favicon.ico
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/tianmuyun/mytoolbox/main/userscript/bilinovelDec.user.js
