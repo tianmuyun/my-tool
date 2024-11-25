@@ -6,6 +6,8 @@
 // @author       tianmuyun
 // @match        *://*/*
 // @grant        GM_addStyle
+// @updateURL    https://raw.githubusercontent.com/tianmuyun/mytoolbox/main/userscript/scrollBar.user.js
+// @downloadURL  https://raw.githubusercontent.com/tianmuyun/mytoolbox/main/userscript/scrollBar.user.js
 // ==/UserScript==
 
 (function () {
