@@ -2,9 +2,9 @@
 // @name         哔哩轻小说字体修改
 // @namespace    http://tampermonkey.net/
 // @version      2024-11-19
-// @description  移除文本选中限制；自定义字体。
+// @description  小说内容页：移除文本选中限制；自定义字体。
 // @author       tianmuyun
-// @match        https://www.linovelib.com/novel/*
+// @match        https://www.linovelib.com/novel/*/*
 // @icon         https://www.linovelib.com/favicon.ico
 // @grant        GM_registerMenuCommand
 // @grant        GM_setValue
