@@ -2,6 +2,8 @@
 
 ## GitHub 直链
 
+raw.githubusercontent.com
+
 > https://raw.githubusercontent.com/ + 用户名/仓库名/分支名/文件路径
 
 ## jsDelivr 代理
