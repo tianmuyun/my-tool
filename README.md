@@ -9,7 +9,7 @@ my-tool
 
 docs
 
-- [油猴脚本](./docs/userscript.md)
-- [Node.js 安装](./docs/nodejs.md)
-- [Windows 优化](./docs/windows.md)
-- [Windows 符号链接](./docs/symlink.md)
+- [油猴脚本](./docs/zh-cn/userscript.md)
+- [Node.js 安装](./docs/zh-cn/nodejs.md)
+- [Windows 优化](./docs/zh-cn/windows.md)
+- [Windows 符号链接](./docs/zh-cn/symlink.md)

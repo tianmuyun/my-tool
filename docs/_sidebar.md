@@ -1,0 +1,5 @@
+* [首页](/)
+* [油猴脚本](/zh-cn/userscript)
+* [Node.js 安装](/zh-cn/nodejs)
+* [Windows 优化](/zh-cn/windows)
+* [Windows 符号链接](/zh-cn/symlink)
