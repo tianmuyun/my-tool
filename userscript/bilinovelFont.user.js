@@ -9,8 +9,6 @@
 // @grant        GM_registerMenuCommand
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @updateURL    https://raw.githubusercontent.com/tianmuyun/mytoolbox/main/userscript/bilinovelFont.user.js
-// @downloadURL  https://raw.githubusercontent.com/tianmuyun/mytoolbox/main/userscript/bilinovelFont.user.js
 // ==/UserScript==
 
 (function () {

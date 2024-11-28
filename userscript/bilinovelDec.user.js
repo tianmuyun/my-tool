@@ -8,8 +8,6 @@
 // @exclude      https://www.linovelib.com/novel/*/*
 // @icon         https://www.linovelib.com/favicon.ico
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/tianmuyun/mytoolbox/main/userscript/bilinovelDec.user.js
-// @downloadURL  https://raw.githubusercontent.com/tianmuyun/mytoolbox/main/userscript/bilinovelDec.user.js
 // ==/UserScript==
 
 (function () {
