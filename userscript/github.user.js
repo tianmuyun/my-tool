@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         GitHub 添加 git clone 命令
 // @namespace    http://tampermonkey.net/
-// @version      2024-11-18
+// @version      2024-11-28
 // @description  GitHub 添加 git clone 命令
 // @author       tianmuyun
-// @match        https://github.com/*
+// @match        https://github.com/*/*
+// @exclude      https://github.com/*/*/*
 // @icon         https://github.com/favicon.ico
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/tianmuyun/mytoolbox/main/userscript/github.user.js
