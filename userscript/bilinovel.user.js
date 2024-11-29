@@ -17,14 +17,15 @@
   const contentURL = /www\.linovelib\.com\/novel\/\d+\/\d+.html/;
   // 执行对应函数
   if (introduceURL.test(currentUrl)) {
-    GM_registerMenuCommand("当前页为简介");
+    GM_registerMenuCommand("添加简介按钮");
     addIntroBtn();
   } else if (contentURL.test(currentUrl)) {
-    GM_registerMenuCommand("当前页为内容");
+    GM_registerMenuCommand("移除文本选中限制");
+    GM_registerMenuCommand("修改字体");
     removeOnSelectStart();
     modifyFont("霞鹜文楷 Medium");  // 修改字体
   } else {
-    GM_registerMenuCommand("当前页未执行脚本");
+    GM_registerMenuCommand("未执行脚本");
   }
 
   // 获取小说简介
