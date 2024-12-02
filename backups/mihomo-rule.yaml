@@ -1,0 +1,81 @@
+# Profile Enhancement Merge Template for Clash Verge
+
+# https://wiki.metacubex.one/config/rules/
+
+rules:
+  # DOMAIN-KEYWORD，使用域名关键字匹配
+  - "DOMAIN-KEYWORD,amazon,蛋挞云"
+  - "DOMAIN-KEYWORD,facebook,蛋挞云"
+  - "DOMAIN-KEYWORD,gmail,蛋挞云"
+  - "DOMAIN-KEYWORD,google,蛋挞云"
+  - "DOMAIN-KEYWORD,instagram,蛋挞云"
+  - "DOMAIN-KEYWORD,twitter,蛋挞云"
+  - "DOMAIN-KEYWORD,youtube,蛋挞云"
+  # DOMAIN，匹配完整域名
+  - "DOMAIN,copilot.microsoft.com,蛋挞云"
+  - "DOMAIN,gamebanana.com,蛋挞云"
+  - "DOMAIN,kemono.su,蛋挞云"
+  - "DOMAIN,nyaa.si,蛋挞云"
+  - "DOMAIN,registry.npmjs.org,蛋挞云"
+  - "DOMAIN,rutracker.org,蛋挞云"
+  - "DOMAIN,share.dmhy.org,蛋挞云"
+  - "DOMAIN,sleazyfork.org,蛋挞云"
+  - "DOMAIN,wallhaven.cc,蛋挞云"
+  - "DOMAIN,wiki.metacubex.one,蛋挞云"
+  - "DOMAIN,www.asmr.one,蛋挞云"
+  - "DOMAIN,www.nexusmods.com,蛋挞云"
+  - "DOMAIN,raw.githubusercontent.com,蛋挞云"
+  # DOMAIN-SUFFIX，匹配域名后缀
+  - "DOMAIN-SUFFIX,x.com,蛋挞云"
+  - "DOMAIN-SUFFIX,twimg.com,蛋挞云" # 推特
+  - "DOMAIN-SUFFIX,cloudflare.com,蛋挞云"
+  - "DOMAIN-SUFFIX,duckduckgo.com,蛋挞云"
+  - "DOMAIN-SUFFIX,github.com,蛋挞云"
+  - "DOMAIN-SUFFIX,pixiv.net,蛋挞云"
+  - "DOMAIN-SUFFIX,pximg.net,蛋挞云"
+  - "DOMAIN-SUFFIX,proton.me,蛋挞云"
+  - "DOMAIN-SUFFIX,spotify.com,蛋挞云"
+  - "DOMAIN-SUFFIX,steamcommunity.com,蛋挞云"
+  - "DOMAIN-SUFFIX,telegram.org,蛋挞云"
+  - "DOMAIN-SUFFIX,wikipedia.com,蛋挞云"
+  - "DOMAIN-SUFFIX,wikipedia.org,蛋挞云"
+  # ----------IP-CIDR，匹配IP地址范围----------
+  # 以下ip为 telegram 服务器
+  - "IP-CIDR,91.108.4.0/22,蛋挞云,no-resolve"
+  - "IP-CIDR,91.108.8.0/21,蛋挞云,no-resolve"
+  - "IP-CIDR,91.108.16.0/22,蛋挞云,no-resolve"
+  - "IP-CIDR,91.108.56.0/22,蛋挞云,no-resolve"
+  - "IP-CIDR,149.154.160.0/20,蛋挞云,no-resolve"
+  # ----------REJECT，拒绝，拦截数据出站----------
+  # DOMAIN-SUFFIX，匹配域名后缀
+  - "DOMAIN-SUFFIX,vungle.com,REJECT"
+  - "DOMAIN-SUFFIX,appsflyer.com,REJECT"
+  - "DOMAIN-SUFFIX,doubleclick.net,REJECT"
+  - "DOMAIN-SUFFIX,mmstat.com,REJECT"
+  # DOMAIN-KEYWORD，使用域名关键字匹配
+  - "DOMAIN-KEYWORD,admarvel,REJECT"
+  - "DOMAIN-KEYWORD,admaster,REJECT"
+  - "DOMAIN-KEYWORD,adsage,REJECT"
+  - "DOMAIN-KEYWORD,adsmogo,REJECT"
+  - "DOMAIN-KEYWORD,adsrvmedia,REJECT"
+  - "DOMAIN-KEYWORD,adwords,REJECT"
+  - "DOMAIN-KEYWORD,adservice,REJECT"
+  - "DOMAIN-KEYWORD,domob,REJECT"
+  - "DOMAIN-KEYWORD,duomeng,REJECT"
+  - "DOMAIN-KEYWORD,dwtrack,REJECT"
+  - "DOMAIN-KEYWORD,guanggao,REJECT"
+  - "DOMAIN-KEYWORD,lianmeng,REJECT"
+  - "DOMAIN-KEYWORD,mopub,REJECT"
+  - "DOMAIN-KEYWORD,omgmta,REJECT"
+  - "DOMAIN-KEYWORD,openx,REJECT"
+  - "DOMAIN-KEYWORD,partnerad,REJECT"
+  - "DOMAIN-KEYWORD,pingfore,REJECT"
+  - "DOMAIN-KEYWORD,supersonicads,REJECT"
+  - "DOMAIN-KEYWORD,uedas,REJECT"
+  - "DOMAIN-KEYWORD,umeng,REJECT"
+  - "DOMAIN-KEYWORD,usage,REJECT"
+  - "DOMAIN-KEYWORD,wlmonitor,REJECT"
+  - "DOMAIN-KEYWORD,zjtoolbar,REJECT"
+  # ----------DIRECT，直连，数据直接出站----------
+  # MATCH，匹配所有请求，无需条件
+  - "MATCH,DIRECT"
