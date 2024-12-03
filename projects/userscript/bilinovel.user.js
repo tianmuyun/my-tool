@@ -16,7 +16,7 @@
   // 获取当前页面的 URL
   const currentUrl = window.location.href;
   const introduceURL = /www\.linovelib\.com\/novel\/\d+.html/;
-  const contentURL = /www\.linovelib\.com\/novel\/\d+\/\d+(_\d+).html/;
+  const contentURL = /www\.linovelib\.com\/novel\/\d+\/\d+(_\d+)*.html/;
   // 执行对应函数
   if (introduceURL.test(currentUrl)) {
     GM_registerMenuCommand("添加简介按钮");
