@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         哔哩轻小说增强
 // @namespace    http://tampermonkey.net/
-// @version      2024-11-29
+// @version      2024-12-03
 // @description  详情页：添加展开简介。内容页：移除文本选中限制；自定义字体。
 // @author       tianmuyun
 // @match        https://www.linovelib.com/novel/*
@@ -16,7 +16,7 @@
   // 获取当前页面的 URL
   const currentUrl = window.location.href;
   const introduceURL = /www\.linovelib\.com\/novel\/\d+.html/;
-  const contentURL = /www\.linovelib\.com\/novel\/\d+\/\d+.html/;
+  const contentURL = /www\.linovelib\.com\/novel\/\d+\/\d+(_\d+).html/;
   // 执行对应函数
   if (introduceURL.test(currentUrl)) {
     GM_registerMenuCommand("添加简介按钮");
