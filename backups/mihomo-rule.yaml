@@ -12,6 +12,7 @@ rules:
   - "DOMAIN-KEYWORD,twitter,蛋挞云"
   - "DOMAIN-KEYWORD,youtube,蛋挞云"
   # DOMAIN，匹配完整域名
+  - "DOMAIN,f-droid.org,蛋挞云"
   - "DOMAIN,copilot.microsoft.com,蛋挞云"
   - "DOMAIN,gamebanana.com,蛋挞云"
   - "DOMAIN,kemono.su,蛋挞云"
