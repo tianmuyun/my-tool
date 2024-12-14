@@ -7,10 +7,10 @@
 
 ## docs
 
-[docsify](https://docsify.js.org/) 生成的[文档网站](https://tianmuyun.github.io/my-tool/)
+[文档](https://tianmuyun.github.io/my-tool/)
 
 <details>
-<summary>文档</summary>
+<summary>详情</summary>
 
 - [油猴脚本](/docs/zh-cn/userscript.md)
 - [GitHub 文件](/docs//zh-cn/githubfile)
@@ -25,3 +25,7 @@
 - clock : 简易的指针时钟
 - userscript : [油猴脚本](/projects/userscript/README.md)
 - windows : windows 优化脚本
+
+## stars
+
+[stars 收集计划](./stars/README.md)
